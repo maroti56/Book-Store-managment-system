@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "poppins";
+  list-style: none;
+
+}
+
+.navbar {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80%;
+  background: #072019;
+
+}
+
+.navbar h2 {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  padding:  20px;
+}
+
+.navmenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.navmenu li {
+  display: inline-block;
+ 
+}
+
+
+.navmenu li a {
+  color: #ffffff;
+  margin-right: 20px;
+  padding: 0px 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navmenu li a:hover {
+  color: #f01111;
+}
+
+.search-box .search {
+  padding: 12px 8px;
+  border-radius: 50px;
+  font-size: 17px;
+}
+
+.search-box .search i {
+  color: #ffffff;
+  position: relative;
+  right: 50px;
+  top: 2px;
+  background-color: #0b910b;
+  padding: 12px;
+  border-radius: 50px;
+}
+
+header {
+  background: #e7f0f3ac;
+  width: 100%;
+  height: 10vh;
+}
+
+.main-header {
+  background-color: #0b7291;
+
+
+  width: 100%;
+  margin: auto;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.main-header h5 {
+  font-size: 22px;
+  color: #0b910b;
+  font-weight: 550;
+}
+
+.main-header h2 {
+  font-size: 48px;
+  width: 340px;
+  margin-top: 10px;
+  margin-bottom: 24;
+
+}
+
+.main-header p {
+  margin-bottom: 60px;
+
+
+}
+
+.main-header .btn {
+  background: #0b910b;
+  border: 1px solid #0b910b;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: all.5s;
+  
+
+}
+
+.main-header .btn:hover {
+  color: #0b910b;
+  background: #ffffff;
+}
+
+.main-header img {
+  width: 560px;
+  height: auto;
+}
+
+.cat-header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.car-row {
+  width: 95%;
+  margin: auto;
+  padding-top: 40%;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.cat-header h2 {
+  font-size: 38px;
+  padding-bottom: 14px;
+  color: #0b910b;
+}
+
+.cat-header h2:hover {
+  color: aquamarine;
+}
+
+.cat-books {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  padding:  30px 30px;
+}
+
+.cat-book.books {
+  width: 360px;
+  height: auto;
+  padding: 20px 30px;
+  justify-content: space-around;
+  position: relative;
+}
+
+.cat-books .books.books-img {
+  background-color:#0b910b;
+  padding: 18px;
+  border-radius: 50%;
+  text-align: center;
+ 
+}
+
+.cat-book.books img {
+  width: 100%;
+
+}
+
+.cat-book.books h4 {
+  margin-top: 16px;
+  font-size: 22px;
+  position: relative;
+  left: 5%;
+}
+
+.cat-book.books p {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.set-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 75%;
+  margin: auto;
+}
+
+.set-row img {
+  width: 680px;
+  height: auto;
+}
+
+
+#about {
+  background: #f8fbfcac;
+  width: 100%;
+  padding: 40px 0px;
+}
+
+.set-row .about-content {
+  padding-left: 30px;
+  margin-bottom: 60px;
+
+}
+
+.set-row .about-content h2 {
+  font-size: 37px;
+  padding-bottom: 20px;
+}
+
+.set-row .about-content p {
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 46px;
+}
+
+.set-row .about-content .btn1 {
+  background: #0b910b;
+  border: 1px solid #0b910b;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: all 0.5s;
+
+}
+
+.set-row .about-content .btn1:hover {
+  background: #ffffff;
+  color: #0b910b;
+
+}
+
+/*----blog section--*/
+
+.blog-header {
+  text-align: center;
+  font-size: 35px;
+  padding: 48px 0;
+  
+  color: #0b910b;
+}
+.blog-header:hover{
+  color: #0b7291;
+}
+.set-row  .col{
+  padding-top: 15px;
+  width: 480px;
+  position:relative;
+
+}
+.set-row .col img{
+  width: 100%;
+  
+}
+set.row .col h4{
+  font-size: 24px;
+  padding: 30%;
+  margin-top: 14px;
+}
+.set-row .col p{
+  font-size: 18px;
+  padding-bottom:12px;
+}
+.set-row .col a{
+  font-size: 20px;
+  color: #000;
+}
+.set-row .col a:hover{
+  color: #0b910b;
+}
+.set-row .col .dates{
+  position: absolute;
+  top: 66%;
+  left:5%;
+}
+.set-row .col .dates span{
+  background:#000 ;
+  color: #ffffff;
+  padding: 8px 10px;
+  font-size: 12px;
+  border-radius: 30px;
+}
+/* 168 */
+.set-row .col .img1{
+  padding-top: 65px;
+}
+.set-row .col .dates1{
+  position: absolute;
+  top: 63%;
+  left:5%;
+}
+.set-row .col .dates1 span{
+  background:#000 ;
+  color: #ffffff;
+  padding: 8px 10px;
+  font-size: 12px;
+  border-radius: 30px;
+}
+
+/*
+
+.set-row {
+  padding: 10px,10px;
+  display: flex;
+}
+
+.col{
+  margin-left: 0px;
+  
+  width: 400px;
+
+}
+.col1{
+  margin-left: 100px;
+ 
+  width: 400px;
+
+}
+
+.h4 {
+  font-size: 24px;
+  padding: 12px 0;
+  margin-top: 14px;
+}
+
+.p {
+  font-size: 18px;
+  padding-bottom: 12px;
+}
+
+.a {
+  font-size: 20px;
+  color: #000;
+}
+
+.a:hover {
+  color: #0b910b;
+}
+
+.dates {
+  position: absolute;
+  top: 65%;
+  left: 5%;
+}
+
+.inner_date {
+  background: #072019;
+  color: #ffffff;
+  padding: 12px 20px;
+  font-size: 20px;
+  border-radius: 50px;
+}
+*/
+#contact{
+  background-color:white;
+  width: 100%;
+}
+.con-header{
+  display: flex;
+  justify-content: space-between;
+  margin:auto;
+  width: 75%;
+  align-items: center;
+  padding-top: 30px;
+
+  
+}
+.con-header form{
+  width:450px;
+  padding:12px 0;
+}
+
+.con-header form input,textarea{
+  width:100%;
+  height:20px;
+  margin-top:20px;
+  padding: 6px 0;
+  text-indent: 10px;
+  font-size: 18px;
+  background-color:white;
+}
+.con-header form input::placeholder,textarea::placeholder{
+  color: #000;
+}
+
+.con-header .col1 .btn5{
+  font-color: rgb(12, 21, 3);
+  background-color:greenyellow;
+  cursor: pointer;
+}
+.con-header .col1 .btn5:hover{
+  color: aqua;
+}
+.con-header .col1 img{
+  padding-right: 60px;
+  width:100%;
+  height: 100%;
+  margin: 40px;
+}
+
+
+
+.footer{
+  background-color: #000;
+  color: aliceblue;
+  text-align: center;
+}
+
+
